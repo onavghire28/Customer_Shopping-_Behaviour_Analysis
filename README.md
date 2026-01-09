@@ -7,7 +7,6 @@
 
 ## Problem Statement
 Banks generate large volumes of transaction data through deposits, withdrawals, online transfers, and card payments across multiple customer segments. However, this data often remains underutilized due to the lack of integrated analysis and visualization. The absence of a centralized analytical system makes it difficult for banks to monitor transaction trends, understand customer behavior, identify high-value customers, and detect operational inefficiencies such as failed transactions.
-
 This project aims to perform exploratory data analysis using Excel, extract meaningful insights using SQL, and build an interactive Power BI dashboard to support data-driven decision-making in the banking domain.
 
 ---
