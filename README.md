@@ -6,9 +6,11 @@
 ---
 
 ## Problem Statement
-Despite having a high volume of daily sales, the business struggles to understand which products drive profit, how customer demographics affect sales, and what factors lead to sales fluctuations. This project aims to analyze shopping sales data to uncover actionable insights that can improve marketing strategies, inventory planning, and overall business performance.
----
+Despite having a high volume of daily sales, the business struggles to understand which products drive profit, how customer demographics affect sales, and what 
+factors lead to sales fluctuations. This project aims to analyze shopping sales data to uncover actionable insights that can improve marketing strategies, inventory planning, and overall business performance.
 
+
+---
 ## Overview
 This project focuses on analyzing shopping sales data to identify key business insights that can help improve sales performance and customer satisfaction. Basic data cleaning and preprocessing were performed using Excel to handle missing values, correct data formats, and prepare the dataset for analysis. Exploratory Data Analysis (EDA) was conducted to understand sales patterns, product performance, customer preferences, and size-wise demand. Power BI was used to build interactive dashboards that visually highlight sales trends, best-selling categories, customer activity patterns, and payment behaviors. 
 
