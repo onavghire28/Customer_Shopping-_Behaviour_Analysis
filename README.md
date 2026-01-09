@@ -1,107 +1,77 @@
 # Customer_Shopping-_Behaviour_Analysis
 
 ## Project Title
-**Banking Transactions Analysis using Excel, SQL, and Power BI**
+**Customer_Shopping_Behaviour_Analysis (Excel | Python | Power BI)**
 
 ---
 
 ## Problem Statement
-Banks generate large volumes of transaction data through deposits, withdrawals, online transfers, and card payments across multiple customer segments. However, this data often remains underutilized due to the lack of integrated analysis and visualization. The absence of a centralized analytical system makes it difficult for banks to monitor transaction trends, understand customer behavior, identify high-value customers, and detect operational inefficiencies such as failed transactions.
-
-This project aims to perform exploratory data analysis using Excel, extract meaningful insights using SQL, and build an interactive Power BI dashboard to support data-driven decision-making in the banking domain.
-
+Despite having a high volume of daily sales, the business struggles to understand which products drive profit, how customer demographics affect sales, and what factors lead to sales fluctuations. This project aims to analyze shopping sales data to uncover actionable insights that can improve marketing strategies, inventory planning, and overall business performance.
 ---
 
 ## Overview
-This project focuses on analyzing banking transaction data to understand customer behavior, transaction trends, and operational performance. The analysis is performed using **Excel for Exploratory Data Analysis (EDA)**, **SQL for structured querying and insights**, and **Power BI for interactive visualization**.  
+This project focuses on analyzing shopping sales data to identify key business insights that can help improve sales performance and customer satisfaction. Basic data cleaning and preprocessing were performed using Excel to handle missing values, correct data formats, and prepare the dataset for analysis. Exploratory Data Analysis (EDA) was conducted to understand sales patterns, product performance, customer preferences, and size-wise demand. Power BI was used to build interactive dashboards that visually highlight sales trends, best-selling categories, customer activity patterns, and payment behaviors. 
 
-The project helps convert raw banking data into meaningful, actionable insights to support data-driven decision-making in the banking domain.
+The study provides clear insights into category-wise performance, customer demographics, and operational metrics, enabling data-driven recommendations for enhancing product strategies, inventory planning, and customer experience.
 
 ---
 
 ##  Objectives
-- To analyze customer behavior based on transaction volume, frequency, and value.
-- To identify high-value and low-engagement customers for strategic decision-making.
-- To analyze failed transactions and identify operational bottlenecks.
-- To analyze failed transactions and identify operational bottlenecks.
+- To analyze overall sales performance.
+- To identify top-performing and low-performing products.
+- To study customer purchasing behavior.
+- To understand revenue drivers.
+
 
 
 ---
 
 ## Tools & Technologies
 - **Excel** – Data cleaning, preprocessing, and EDA  
-- **SQL** – Data analysis using joins, subqueries, CTEs, and window functions  
+- **Python** – To perform Exploratory Data Analysis 
 - **Power BI** – Data modeling, visualization, and dashboard creation  
 
 ---
 
-## Dataset Description
-The dataset consists of banking-related data stored in CSV format, including:
-- **Customer details** (demographics and account information)
-- **Transaction data** (deposits, withdrawals, online transfers, card payments)
-- **Loan data** (loan amount, EMI, loan status)
-
----
 
 ## Methodology
-- Collect banking-related customer, transaction, and loan data was collected in
-CSV format representing real-world banking operations.
-- Excel was used to handle missing values, remove duplicates, standardize formats,
-and create derived columns for analysis.
-- Pivot tables and charts in Excel were used to identify transaction trends, cus
-tomer behavior, and channel-wise patterns.
-- Cleaned data was imported into a relational database, and tables were created
-with appropriate relationships and constraints.
-- SQL queries involving joins, subqueries, CTEs, and window functions were used
-to extract insights and perform advanced analysis.
-- Relationships between tables were defined and calculated measures were created
-to support analytical reporting.
-- Interactive dashboards were built to visualize KPIs, transaction trends, customer
-segmentation, and channel performance.
-- Dashboard outputs were analyzed to derive actionable insights for improving
-banking operations and customer experience.
+- Reviewed the dataset structure, columns, and data types to identify missing values, inconsistencies, and analysis requirements. 
+- Removed duplicates, handled missing values, corrected formats, and standardized data types to ensure clean and accurate data. 
+- Performed category-wise, customer-wise, and size-wise analysis to identify trends, patterns, and key sales insights. 
+- Prepared cleaned data with proper formatting, calculated fields, and structured tables suitable for Power BI dashboards. 
+- Created interactive dashboards displaying sales KPIs, category performance, customer demographics, and shipping/payment behavior. 
+- Interpreted Power BI visuals and EDA outcomes to highlight major findings and business patterns. 
+- Developed data-driven suggestions to improve sales, optimize inventory, and enhance customer experience. 
+- Compiled all analysis, visuals, and findings into a structured project report for presentation.
 
 ---
 
 ## Key Insights
-- Total successful transaction amount is approximately **116.26M**.
-- **ATM** is the most used transaction channel, contributing over **25.47%** of transactions.
-- **Withdrawals** are the highest transaction type by count.
-- Adult males and senior females contribute the highest transaction amounts.
-- **Chennai** records the highest number of transactions.
-- Failed transactions are highest in the ATM channel due to network issues.
-- Around **49%** of transactions are digital.
-- Online transfers show a consistent growth trend.
-- Total loan amount is **310.76M** with an average EMI of **23.66K**.
-
----
-
-## Visualizations
-The Power BI dashboard includes:
-- Overall banking transaction summary
-- Channel-wise transaction distribution
-- Monthly transaction growth trends
-- Customer segmentation and loan analysis
-
-Interactive visuals help stakeholders quickly understand patterns and performance.
+- Total Sale - ~233K, Avg Rating – 3.7. 
+- Clothing - Most Sale Category. 
+- Male are more Active in shopping as compare to Female. 
+- Outwear is less Sale Category as compare to others. 
+- M is most Sale and S & XL are Less sale Size respectively. 
+- Free Shipping Mostly Preferred by Customers. 
+- All Payment mode on an avg contribute 16.9% in Total Sale.
 
 ---
 
 ## Project Report 
-- [Project Report](https://github.com/onavghire28/Banking_Transactions_Analysis/blob/main/Bank_transaction_Analysis%20(overleaf).pdf)
-- [Project PPT](https://github.com/onavghire28/Banking_Transactions_Analysis/blob/main/Banking_Transaction_analysis(PDF).pdf)
-- [SQL Queries](https://github.com/onavghire28/Banking_Transactions_Analysis/blob/main/Banking_Transactions_Analysis(SQL).sql)
-- [Dashboard View](https://github.com/onavghire28/Banking_Transactions_Analysis/blob/main/Dashboard_View.pdf)
+- [Project Report](https://github.com/onavghire28/Customer_Shopping-_Behaviour_Analysis/blob/main/Project_report.pdf)
+- [Project PPT](https://github.com/onavghire28/Customer_Shopping-_Behaviour_Analysis/blob/main/Project_PPT.pdf)
+- [Dashboard View](https://github.com/onavghire28/Customer_Shopping-_Behaviour_Analysis/blob/main/Dashboard%20View.pdf)
 
 
 ---
 
-## Future Enhancements
-- Implement real-time transaction monitoring.
-- Add fraud detection and anomaly detection models.
-- Integrate predictive analytics for transaction forecasting.
-- Automate data updates using scheduled pipelines.
-- Extend analysis using machine learning models.
+## Recommendations
+- Promote high-selling clothing SKUs: Increase stock and marketing for top performing clothing items to capture demand and avoid stockouts. 
+- Target male customer segment: Tailor promotions and email campaigns to the more active male shoppers, while creating specific strategies to increase female engagement. 
+- Revise outerwear assortment: Review pricing and styles for outerwear; consider discounts or bundling to boost demand. 
+- Optimize size inventory: Stock more of size M and reduce overstock of S and XL; use size-level demand forecasting to balance inventory. 
+- Leverage free shipping: Highlight free-shipping thresholds in marketing to increase average order value (AOV). 
+- Monitor payment mix: Since payment modes contribute similar shares, ensure frictionless checkout across all modes and monitor for fraud/anomaly.
 
 ---
 
